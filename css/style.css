@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(../fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url(../fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.header-title {
+  max-width: 790px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.6;
+  color: #241b62;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #241b62;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search-form {
+  width: 50%;
+  margin-top: 57px;
+  margin-bottom: 57px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.search-group {
+  flex-grow: 1;
+}
+.search-field {
+  width: 100%;
+  height: 48px;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #f4f7f6;
+  border: 0;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.search-field:focus {
+  outline: none;
+  border: 1px solid #241b62;
+}
+
+.search-button {
+  flex: 0 0 auto;
+  width: 47px;
+  height: 48px;
+  border: 0;
+  background-color: #241b62;
+  background-image: url("../svg/search.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 18px 18px;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.company {
+  min-height: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
